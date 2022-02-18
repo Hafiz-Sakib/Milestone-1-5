@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&family=Poppins:wght@400;500&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+}
+.bangla.colored.class2 {
+  color: yellowgreen;
+  font-size: 3em;
+}
+
+.bangla {
+  font-family: "Hind Siliguri", sans-serif;
+}
+.bangla.paragraph {
+  color: white;
+}
+.main {
+  color: blue;
+}

@@ -1,0 +1,118 @@
+.Practise {
+  font-size: 50px;
+  font-weight: 700;
+  font-style: italic;
+  color: #ffa500;
+}
+.Inline {
+  background-color: yellowgreen;
+  width: 320px;
+  height: 35px;
+}
+
+.inline-elements {
+  color: #ff6700;
+  font-weight: 700;
+  font-size: 19px;
+}
+.block {
+  background-color: rgb(125, 7, 151);
+  width: 320px;
+  height: 35px;
+}
+.block-elements {
+  color: Red;
+  font-weight: 700;
+  font-size: 19px;
+}
+table {
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 4px solid #6047ec;
+  padding: 10px 10px;
+  font-size: 20px;
+}
+.table-caption {
+  font-size: 25px;
+  font-weight: 800;
+  color: orangered;
+}
+.friends-table {
+  position: relative;
+  left: 450px;
+  width: 75%;
+}
+.theadings {
+  background-color: #01987a;
+  color: #4b0150;
+}
+#isu:hover {
+  background-color: chartreuse;
+}
+#rose:hover {
+  background-color: coral;
+}
+#poky:hover {
+  background-color: cyan;
+}
+#imu:hover {
+  background-color: goldenrod;
+}
+.yttag {
+  color: red;
+  font-style: italic;
+}
+.ytvideo {
+  position: relative;
+  left: 450px;
+}
+.blog {
+  text-align: justify;
+  width: 40%;
+}
+.sementic {
+  padding-left: 40px;
+  margin-top: 90px;
+  height: 400px;
+  background-image: url(images/sea.jpg);
+  background-repeat: no-repeat;
+  background-size: 1000px 400px;
+}
+.fab {
+  color: red;
+}
+.far {
+  color: rgb(242, 12, 12);
+}
+.animated {
+  font-style: oblique;
+  color: rgb(99, 11, 208);
+}
+.field {
+  width: 5000px;
+  height: 600px;
+  border: 1px solid greenyellow;
+  background-image: url(images/field.jpg);
+}
+#bar {
+  position: relative;
+  margin-left: 900px;
+  width: 500px;
+  height: 500px;
+}
+.ball {
+  position: relative;
+  right: 1400px;
+  background-color: white;
+  border-radius: 130%;
+  margin-right: 600px;
+  width: 100px;
+  height: 100px;
+  margin-top: -300px;
+}
+.field:hover .ball {
+  transform: translate(1200px, -200px) rotate(180deg);
+  transition: 5s ease-in;
+}
